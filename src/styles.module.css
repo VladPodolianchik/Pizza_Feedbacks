@@ -1,0 +1,77 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.loadBtn {
+  background: red;
+  color: blue;
+  font-size: 20px;
+}
+
+.disabledBtn {
+  background-color: #efefef;
+}
+.table {
+  border: 1px solid black;
+}
+
+.guestInfo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.loadButtonConatiner {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.errorPhone {
+  color: red;
+}
+
+.feedBackForm {
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  background-color: #eef1f1;
+}
+
+.feedBackNameWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedBackInfo {
+  font-size: 24px;
+  color: #717171;
+  word-wrap: break-word;
+}
+
+.feedBackName {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedBackBtnDelete {
+  color: red;
+  text-transform: lowercase;
+  cursor: pointer;
+}
+
+button.feedBackBtnReturn {
+  background-color: #00ecc9;
+  padding: 0px;
+  font-weight: 700;
+}
+
+button.feedBackBtnReturn p {
+  margin: 0;
+}
+
+button.feedBackBtnReturn:hover {
+  background-color: #00ecc9;
+}
+
+.feedBackInput {
+  background-color: white;
+}
